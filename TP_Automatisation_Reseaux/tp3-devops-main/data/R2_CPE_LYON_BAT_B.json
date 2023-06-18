@@ -1,0 +1,42 @@
+{
+    "hostname":"R2-CPE-BAT-B",
+    "interfaces":[{
+        "name":"g3/0.10",
+        "description":"link R2-ESW1",
+        "ip":"172.16.30.254",
+        "mask":"255.255.255.0",
+        "vlan_id":10
+    },{
+        "name":"g3/0.20",
+        "description":"link R2-ESW1",
+        "ip":"172.16.40.254",
+        "mask":"255.255.255.0",
+        "vlan_id":20
+    },{
+        "name":"S2/1",
+        "description":"SLink R2-R6",
+        "ip":"10.1.4.2",
+        "mask":"255.255.255.252",
+        "vlan_id":1
+    }],
+    "processus_ID":"1",
+    "router_ID":"4.4.4.4",
+    "networks":[{
+        "network_ip":"172.16.30.254",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"172.16.40.254",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"172.16.100.190",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"10.1.4.2",
+        "network_mask":"0.0.0.3",
+        "area_ID":"0"
+    }
+    ]
+}

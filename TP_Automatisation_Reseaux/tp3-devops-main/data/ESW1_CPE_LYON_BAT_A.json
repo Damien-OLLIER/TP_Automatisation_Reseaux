@@ -1,0 +1,34 @@
+{
+    "hostname":"ESW1_CPE_LYON_BAT_A",
+    "interfaces":[{
+        "name":"f1/14",
+        "description":"Interface trunk via R1-CPE-BAT-A",
+        "type":"trunk"
+    },{
+        "name":"f1/15",
+        "description":"Interface trunk via R2-CPE-BAT-A",
+        "type":"trunk"
+    },{
+        "name":"f1/1",
+        "description":"Interface access vlan 10",
+        "type":"access",
+        "vlan_id":10
+    },{
+        "name":"f1/2",
+        "description":"Interface access vlan 20",
+        "type":"access",
+        "vlan_id":20
+    },{
+        "name":"vlan 10",
+        "description":"vlan 10",
+        "ip":"172.16.10.252",
+        "mask":"255.255.255.0",
+        "vlan_id":10
+    },{
+        "name":"vlan 20",
+        "description":"vlan 20",
+        "ip":"172.16.20.252",
+        "mask":"255.255.255.0",
+        "vlan_id":20
+    }]
+}

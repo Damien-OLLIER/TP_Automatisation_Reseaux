@@ -1,0 +1,27 @@
+{
+    "hostname":"R2",
+    "processus_ID":"1",
+    "router_ID":"2.2.2.2",
+    "networks":[{
+        "network_ip":"172.16.30.254",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"172.16.40.254",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"172.16.100.190",
+        "network_mask":"0.0.0.255",
+        "area_ID":"0"
+    },{
+        "network_ip":"10.1.1.2",
+        "network_mask":"0.0.0.3",
+        "area_ID":"0"
+    },{
+        "network_ip":"10.1.2.1",
+        "network_mask":"0.0.0.3",
+        "area_ID":"0"
+    }
+    ]
+}

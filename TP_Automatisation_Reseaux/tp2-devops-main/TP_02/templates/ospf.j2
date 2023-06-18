@@ -1,0 +1,9 @@
+hostname {{hostname}}
+router ospf {{processus_ID}}
+router-id {{router_ID}}
+
+{% for network in networks %}
+network {{network.network_ip}} {{network.network_mask}} area {{network.area_ID}}
+{% endfor %}
+
+exit
