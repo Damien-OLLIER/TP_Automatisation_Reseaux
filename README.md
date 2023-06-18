@@ -8,6 +8,7 @@ Cela m'a permet de développer des Scripts d'automatisation a l'aide library com
 Voici un exemple des infrastructures réseaux déployés lors de ces 3 TP
 
 ![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/Sujet_TP-1.pdf)
+![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/Sujet_TP-2.pdf)
 
 
 
