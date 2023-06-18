@@ -7,10 +7,14 @@ Cela m'a permet de développer des Scripts d'automatisation a l'aide library com
 
 Voici un exemple des infrastructures réseaux déployés lors de ces 3 TP
 
-Architecture TP1          |  Architecture TP2 | Architecture TP3       
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP1.PNG)|
-![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP2.PNG)|
+Architecture TP1             
+:-------------------------:
+![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP1.PNG)
+ Architecture TP2 
+:-------------------------:
+![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP2.PNG)
+Architecture TP3   
+:-------------------------:
 ![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP3.PNG)
 
 
