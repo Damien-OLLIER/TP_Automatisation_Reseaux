@@ -1,0 +1,1402 @@
+2022-11-28 13:48:48,345 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:49:41,594 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:52:40,688 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:55:34,539 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:55:34,550 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:55:34,550 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:55:34,550 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:55:34,551 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:55:34,551 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:55:34,551 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.host.filter(device_type="router_switch"),
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'filter'
+
+2022-11-28 13:57:55,255 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:58:23,826 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:58:23,827 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:23,827 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:23,828 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:23,828 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:23,828 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:23,828 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'hello_world' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "scripts/run_nornir.py", line 10, in hello_world
+    host=task.filter(device_type="router_switch").host,
+AttributeError: 'Task' object has no attribute 'filter'
+
+2022-11-28 13:58:58,862 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-11-28 13:59:45,068 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-11-28 14:17:06,933 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {} on 4 hosts
+2022-11-28 14:17:06,934 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() missing 1 required positional argument: 'commands'
+
+2022-11-28 14:17:06,934 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() missing 1 required positional argument: 'commands'
+
+2022-11-28 14:17:06,935 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() missing 1 required positional argument: 'commands'
+
+2022-11-28 14:17:06,935 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_cli() missing 1 required positional argument: 'commands'
+
+2022-11-28 14:19:23,606 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': 'show interfaces brief'} on 4 hosts
+2022-11-28 14:19:24,391 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-11-28 14:19:24,913 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-11-28 14:19:25,749 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-11-28 14:19:25,889 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2493, in cli
+    raise TypeError("Please enter a valid list of commands!")
+TypeError: Please enter a valid list of commands!
+
+2022-11-28 14:19:43,572 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces brief']} on 4 hosts
+2022-11-28 14:20:44,134 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces']} on 4 hosts
+2022-11-28 14:21:26,394 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces brief']} on 4 hosts
+2022-11-28 14:23:03,486 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interfaces brief']} on 4 hosts
+2022-11-28 14:23:17,609 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['sh ip int brief']} on 4 hosts
+2022-11-28 14:25:54,550 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['sh ip int brief']} on 4 hosts
+2022-11-28 14:26:25,616 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'commands': ['sh ip arp table']} on 2 hosts
+2022-11-28 14:26:25,617 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_get() missing 1 required positional argument: 'getters'
+
+2022-11-28 14:26:25,617 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: napalm_get() missing 1 required positional argument: 'getters'
+
+2022-11-28 14:29:24,784 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['sh ip arp table']} on 2 hosts
+2022-11-28 14:29:28,331 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_sh ip arp table'
+
+2022-11-28 14:29:28,968 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_sh ip arp table'
+
+2022-11-28 14:29:47,208 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['arp']} on 2 hosts
+2022-11-28 14:29:48,716 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_arp'
+
+2022-11-28 14:29:49,429 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_arp'
+
+2022-11-28 14:30:04,060 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp']} on 2 hosts
+2022-11-28 14:30:05,341 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_arp'
+
+2022-11-28 14:30:06,497 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+AttributeError: 'IOSDriver' object has no attribute 'get_arp'
+
+2022-11-28 14:31:46,456 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': []} on 2 hosts
+2022-11-28 14:33:42,206 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['interfaces']} on 2 hosts
+2022-11-28 14:35:43,113 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['arp_table']} on 2 hosts
+2022-11-28 14:40:04,420 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 1.1.1.1 255.255.255.255']} on 1 hosts
+2022-11-28 14:40:05,340 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:41:11,797 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 1.1.1.1 255.255.255.255']} on 1 hosts
+2022-11-28 14:41:12,702 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:42:16,427 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', '/n', 'ip address 1.1.1.1 255.255.255.255']} on 1 hosts
+2022-11-28 14:42:17,468 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:42:44,179 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['conf t', 'int lo1', 'ip address 1.1.1.1 255.255.255.255']} on 1 hosts
+2022-11-28 14:42:54,996 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2496, in cli
+    output = self._send_command(command)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 206, in _send_command
+    output = self.device.send_command(command)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/utilities.py", line 592, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1721, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: 'R1\\-CPE\\-BAT\\-A\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2022-11-28 14:42:54,997 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:45:22,049 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1']} on 1 hosts
+2022-11-28 14:45:22,902 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:46:17,883 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['conf t', 'int lo1', 'end']} on 1 hosts
+2022-11-28 14:46:28,712 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 20, in napalm_cli
+    result = device.cli(commands)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 2496, in cli
+    output = self._send_command(command)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 206, in _send_command
+    output = self.device.send_command(command)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/utilities.py", line 592, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1721, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: 'R1\\-CPE\\-BAT\\-A\\#' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2022-11-28 14:46:28,717 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:50:08,066 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1']} on 1 hosts
+2022-11-28 14:50:08,876 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:50:31,369 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1 \n']} on 1 hosts
+2022-11-28 14:50:32,162 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 14:52:01,017 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['interface loopback1']} on 1 hosts
+2022-11-28 14:52:01,804 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['int lo1', 'ip address 2.2.2.2 255.255.255.255']} on 1 hosts
+2022-11-28 15:08:06,472 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:08:13,265 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': '1.1.1.1 255.255.255.255'} on 1 hosts
+2022-11-28 15:08:20,285 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+1.1.1.1 255.255.255.255
+^
+% Invalid input detected at '^' marker.
+
+23 bytes copied in 0.020 secs (1150 bytes/sec)
+
+2022-11-28 15:08:20,286 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:09:12,446 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:09:18,953 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': '1.1.1.1 255.255.255.255'} on 1 hosts
+2022-11-28 15:09:25,836 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+1.1.1.1 255.255.255.255
+^
+% Invalid input detected at '^' marker.
+
+23 bytes copied in 0.016 secs (1438 bytes/sec)
+
+2022-11-28 15:09:25,837 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:10:37,106 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1 \n 1.1.1.1 255.255.255.255'} on 1 hosts
+2022-11-28 15:10:44,960 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+ 1.1.1.1 255.255.255.255
+ ^
+% Invalid input detected at '^' marker.
+
+46 bytes copied in 0.028 secs (1643 bytes/sec)
+
+2022-11-28 15:10:44,962 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:12:56,327 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:13:02,841 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'ip address 1.1.1.1 255.255.255.255'} on 1 hosts
+2022-11-28 15:13:09,445 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+ip address 1.1.1.1 255.255.255.255
+          ^
+% Invalid input detected at '^' marker.
+
+34 bytes copied in 0.020 secs (1700 bytes/sec)
+
+2022-11-28 15:13:09,446 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:15:50,994 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': ['interface loopback 1', 'ip address 1.1.1.1 255.255.255.255']} on 1 hosts
+2022-11-28 15:15:51,958 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 270, in _load_candidate_wrapper
+    tmp_file = self._create_tmp_file(source_config)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 245, in _create_tmp_file
+    fobj.write(config)
+TypeError: write() argument must be str, not list
+
+2022-11-28 15:15:51,961 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:17:44,315 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'config/R1_lo1.conf'} on 1 hosts
+2022-11-28 15:17:52,001 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+config/R1_lo1.conf
+      ^
+% Invalid input detected at '^' marker.
+
+18 bytes copied in 0.024 secs (750 bytes/sec)
+
+2022-11-28 15:17:52,002 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:19:15,991 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface lo1'} on 1 hosts
+2022-11-28 15:21:03,954 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_lo1.conf'} on 1 hosts
+2022-11-28 15:21:10,473 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'configuration': 'interface loopback 1'} on 1 hosts
+2022-11-28 15:23:05,693 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_lo1.conf'} on 1 hosts
+2022-11-28 15:23:10,960 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_lo1.conf'} on 1 hosts
+2022-11-28 15:26:03,708 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['wr']} on 6 hosts
+2022-11-28 15:30:24,676 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'sh ip int brief'} on 4 hosts
+2022-11-28 15:32:44,509 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['int lo2', 'ip address 1.1.1.2 255.255.255.255']} on 6 hosts
+2022-11-28 15:32:48,976 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['int lo2', 'ip address 2.2.2.3 255.255.255.255']} on 6 hosts
+2022-11-28 15:33:55,336 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['int lo2', 'ip address 1.1.1.2 255.255.255.255']} on 1 hosts
+2022-11-28 15:33:56,335 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['int lo2', 'ip address 2.2.2.3 255.255.255.255']} on 1 hosts
+2022-11-28 15:35:15,129 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2022-11-28 15:35:16,561 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2022-11-28 15:39:58,195 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:40:04,894 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:40:14,233 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:40:19,423 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:40:19,429 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:40:24,627 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:43:11,346 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:43:16,810 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:43:25,064 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:43:31,255 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:43:31,256 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:43:36,157 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:43:36,158 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:43:41,231 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:43:41,236 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:43:48,622 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:44:20,401 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:44:25,927 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:44:33,617 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:44:39,780 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:44:39,782 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:44:56,037 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+interface g2/0.10
+            ^
+% Invalid input detected at '^' marker.
+
+description Co R1-ESW1 1
+  ^
+% Invalid input detected at '^' marker.
+
+encapsulation dot1q 10
+  ^
+% Invalid input detected at '^' marker.
+
+ip address 172.16.30.253 255.255.255.0
+          ^
+% Invalid input detected at '^' marker.
+
+no shut
+    ^
+% Invalid input detected at '^' marker.
+
+260 bytes copied in 0.048 secs (5417 bytes/sec)
+R1-CPE-BAT-B#
+
+2022-11-28 15:44:56,038 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:45:01,622 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:45:01,623 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:45:09,382 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 35, in napalm_configure
+    device.load_merge_candidate(filename=filename, config=configuration)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 317, in load_merge_candidate
+    return_status, msg = self._load_candidate_wrapper(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 284, in _load_candidate_wrapper
+    (return_status, msg) = self._scp_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 733, in _scp_file
+    return self._xfer_file(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 802, in _xfer_file
+    raise CommandErrorException(msg)
+napalm.base.exceptions.CommandErrorException: SCP file transfers are not enabled. Configure 'ip scp server enable' on the device.
+
+2022-11-28 15:49:30,726 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:49:36,133 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:49:45,269 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:50:05,359 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:50:17,518 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:50:30,850 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:53:25,401 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:53:30,809 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:53:39,161 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:53:58,668 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:54:07,889 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:54:18,189 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:58:38,528 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:58:43,982 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:58:52,252 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 15:59:11,793 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:59:22,001 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 15:59:33,024 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:18:08,096 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:18:14,672 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:18:26,244 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+router ospf 
+% Incomplete command.
+
+router-id 
+      ^
+% Invalid input detected at '^' marker.
+
+285 bytes copied in 0.104 secs (2740 bytes/sec)
+
+2022-11-28 16:18:26,245 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:18:46,524 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:19:01,131 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+router ospf 
+% Incomplete command.
+
+router-id 
+      ^
+% Invalid input detected at '^' marker.
+
+285 bytes copied in 0.108 secs (2639 bytes/sec)
+
+2022-11-28 16:19:01,134 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:19:16,408 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+router ospf 
+% Incomplete command.
+
+router-id 
+      ^
+% Invalid input detected at '^' marker.
+
+285 bytes copied in 0.080 secs (3563 bytes/sec)
+
+2022-11-28 16:19:16,409 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:32:06,199 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:32:12,794 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:32:22,680 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:32:39,427 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:32:51,323 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:33:04,325 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:41:16,459 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:41:25,650 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.156 secs (3558 bytes/sec)
+
+2022-11-28 16:41:25,653 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:41:37,734 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+interface S2/2
+            ^
+% Invalid input detected at '^' marker.
+
+description Co R1-R6
+  ^
+% Invalid input detected at '^' marker.
+
+encapsulation dot1q 1
+  ^
+% Invalid input detected at '^' marker.
+
+ip address 10.1.5.2 255.255.255.252
+          ^
+% Invalid input detected at '^' marker.
+
+no shut
+    ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.124 secs (4476 bytes/sec)
+
+2022-11-28 16:41:37,735 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:41:54,203 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:42:09,715 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.156 secs (3558 bytes/sec)
+
+2022-11-28 16:42:09,716 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:42:26,328 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.168 secs (3304 bytes/sec)
+
+2022-11-28 16:42:26,329 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 16:59:34,629 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:59:42,726 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.112 secs (4955 bytes/sec)
+
+2022-11-28 16:59:42,727 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 16:59:54,264 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+interface S2/2
+            ^
+% Invalid input detected at '^' marker.
+
+description Co R1-R6
+  ^
+% Invalid input detected at '^' marker.
+
+encapsulation dot1q 1
+  ^
+% Invalid input detected at '^' marker.
+
+ip address 10.1.5.2 255.255.255.252
+          ^
+% Invalid input detected at '^' marker.
+
+no shut
+    ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.124 secs (4476 bytes/sec)
+
+2022-11-28 16:59:54,268 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:00:10,961 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:00:27,370 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.176 secs (3153 bytes/sec)
+
+2022-11-28 17:00:27,371 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:00:41,581 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.156 secs (3558 bytes/sec)
+
+2022-11-28 17:00:41,582 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:02:12,951 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:02:21,061 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.100 secs (5550 bytes/sec)
+
+2022-11-28 17:02:21,064 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:02:32,674 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+interface g3/0.10
+            ^
+% Invalid input detected at '^' marker.
+
+description Co R2-ESW1 1
+  ^
+% Invalid input detected at '^' marker.
+
+encapsulation dot1q 10
+  ^
+% Invalid input detected at '^' marker.
+
+ip address 172.16.10.254 255.255.255.0
+          ^
+% Invalid input detected at '^' marker.
+
+no shut
+    ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.084 secs (6607 bytes/sec)
+
+2022-11-28 17:02:32,676 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:02:49,005 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:03:03,967 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+interface g2/0.10
+            ^
+% Invalid input detected at '^' marker.
+
+description Co R1-ESW1 1
+  ^
+% Invalid input detected at '^' marker.
+
+encapsulation dot1q 10
+  ^
+% Invalid input detected at '^' marker.
+
+ip address 172.16.30.253 255.255.255.0
+          ^
+% Invalid input detected at '^' marker.
+
+no shut
+    ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.056 secs (9911 bytes/sec)
+
+2022-11-28 17:03:03,968 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:03:18,131 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.156 secs (3558 bytes/sec)
+
+2022-11-28 17:03:18,133 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:07:04,586 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:07:12,498 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.160 secs (3469 bytes/sec)
+
+2022-11-28 17:07:12,499 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:08:16,349 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 593, in commit_config
+    output = self._commit_handler(cmd)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 467, in wrapper
+    return f(self, *args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 497, in _commit_handler
+    self.device.set_base_prompt()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 35, in set_base_prompt
+    base_prompt = super().set_base_prompt(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 326, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 406, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 362, in iter
+    raise retry_exc.reraise()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 195, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 409, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1307, in set_base_prompt
+    prompt = self.find_prompt(delay_factor=delay_factor, pattern=pattern)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1338, in find_prompt
+    prompt = self.read_until_pattern(pattern=pattern)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: '(\\#|>)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2022-11-28 17:08:16,354 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:08:26,374 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/util.py", line 279, in retry_on_signal
+    return function()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 113, in _netmiko_open
+    self._netmiko_device = ConnectHandler(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.123:22
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 30, in napalm_configure
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/connections/__init__.py", line 57, in open
+    connection.open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 170, in open
+    self.device = self._netmiko_open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 122, in _netmiko_open
+    raise ConnectionException("Cannot connect to {}".format(self.hostname))
+napalm.base.exceptions.ConnectionException: Cannot connect to 172.16.100.123
+
+2022-11-28 17:08:26,379 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:09:33,563 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 593, in commit_config
+    output = self._commit_handler(cmd)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 467, in wrapper
+    return f(self, *args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 497, in _commit_handler
+    self.device.set_base_prompt()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/cisco/cisco_ios.py", line 35, in set_base_prompt
+    base_prompt = super().set_base_prompt(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 326, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 406, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 362, in iter
+    raise retry_exc.reraise()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 195, in reraise
+    raise self.last_attempt.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/tenacity/__init__.py", line 409, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1307, in set_base_prompt
+    prompt = self.find_prompt(delay_factor=delay_factor, pattern=pattern)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1338, in find_prompt
+    prompt = self.read_until_pattern(pattern=pattern)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 672, in read_until_pattern
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+Pattern not detected: '(\\#|>)' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2022-11-28 17:09:33,570 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:09:46,619 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.140 secs (3964 bytes/sec)
+
+2022-11-28 17:09:46,620 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:13:20,936 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:13:28,884 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+555 bytes copied in 0.128 secs (4336 bytes/sec)
+
+2022-11-28 17:13:28,885 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:13:38,895 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/util.py", line 279, in retry_on_signal
+    return function()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 113, in _netmiko_open
+    self._netmiko_device = ConnectHandler(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.126:22
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 30, in napalm_configure
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/connections/__init__.py", line 57, in open
+    connection.open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 170, in open
+    self.device = self._netmiko_open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 122, in _netmiko_open
+    raise ConnectionException("Cannot connect to {}".format(self.hostname))
+napalm.base.exceptions.ConnectionException: Cannot connect to 172.16.100.126
+
+2022-11-28 17:13:38,900 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2022-11-28 17:13:48,911 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/util.py", line 279, in retry_on_signal
+    return function()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 113, in _netmiko_open
+    self._netmiko_device = ConnectHandler(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.123:22
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 30, in napalm_configure
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/connections/__init__.py", line 57, in open
+    connection.open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 170, in open
+    self.device = self._netmiko_open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 122, in _netmiko_open
+    raise ConnectionException("Cannot connect to {}".format(self.hostname))
+napalm.base.exceptions.ConnectionException: Cannot connect to 172.16.100.123
+
+2022-11-28 17:13:48,913 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:13:58,922 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1046, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/util.py", line 279, in retry_on_signal
+    return function()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/paramiko/client.py", line 358, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 113, in _netmiko_open
+    self._netmiko_device = ConnectHandler(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/ssh_dispatcher.py", line 365, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 439, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 444, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/netmiko/base_connection.py", line 1068, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.189:22
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 30, in napalm_configure
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/connections/__init__.py", line 57, in open
+    connection.open()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 170, in open
+    self.device = self._netmiko_open(
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/base/base.py", line 122, in _netmiko_open
+    raise ConnectionException("Cannot connect to {}".format(self.hostname))
+napalm.base.exceptions.ConnectionException: Cannot connect to 172.16.100.189
+
+2022-11-28 17:13:58,926 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-11-28 17:14:12,826 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'napalm_configure' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/nornir_napalm/plugins/tasks/napalm_configure.py", line 43, in napalm_configure
+    device.commit_config()
+  File "/home/cpe/.local/share/virtualenvs/workspace-lQQg3_Bq/lib/python3.8/site-packages/napalm/ios/ios.py", line 598, in commit_config
+    raise MergeConfigException(merge_error)
+napalm.base.exceptions.MergeConfigException: Configuration merge failed; automatic rollback attempted:
+
+encapsulation dot1q 1
+              ^
+% Invalid input detected at '^' marker.
+
+Reload or use "clear ip ospf process" command, for this to take effect
+555 bytes copied in 0.152 secs (3651 bytes/sec)
+
+2022-11-28 17:14:12,827 -  nornir.core -     INFO -        run() - Running task 'napalm_configure' with args {'dry_run': False, 'filename': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2022-12-01 16:30:04,373 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-12-01 16:47:35,087 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-12-01 16:47:35,091 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-12-01 16:53:19,628 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2022-12-01 16:53:19,641 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-12-01 16:54:30,634 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['sh ip int brief']} on 4 hosts
+2022-12-01 16:57:22,411 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['arp_table']} on 2 hosts
