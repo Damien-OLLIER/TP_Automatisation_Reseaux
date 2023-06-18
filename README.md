@@ -11,10 +11,8 @@ Architecture TP1
 :-------------------------:
 ![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP1.PNG)
  Architecture TP2 
-:-------------------------:
 ![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP2.PNG)
 Architecture TP3   
-:-------------------------:
 ![](https://github.com/Damien-OLLIER/TP_Automatisation_Reseaux/blob/master/TP_Automatisation_Reseaux/ArchitectureReseauxTP3.PNG)
 
 
